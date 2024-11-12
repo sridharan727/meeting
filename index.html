@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time PDF Co-Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="controls">
+            <button id="prevPage" disabled>Previous</button>
+            <button id="nextPage" disabled>Next</button>
+            <span id="pageStatus">Page 1</span>
+        </div>
+        <canvas id="pdfViewer"></canvas>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+
+    <!-- PDF.js for rendering PDF -->
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+
+    <!-- Firebase Configuration -->
+    <script src="firebaseConfig.js"></script>
+
+    <!-- Application Logic -->
+    <script src="app.js"></script>
+</body>
+</html>

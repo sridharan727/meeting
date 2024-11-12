@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    text-align: center;
+    width: 80%;
+}
+
+#controls {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+}
